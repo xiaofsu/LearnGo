@@ -7,8 +7,12 @@ import (
 	"net/http"
 )
 
+type Rope string
+
 func helloHandler(writer http.ResponseWriter, req *http.Request) {
-	fmt.Println("----> handler start <----")
+	var a Rope = "111"
+	fmt.Println("----> handler start <----" + a)
+	fmt.Println("This is a raw string \n")
 	//writer.Header().Set("content-type","application/json")
 	fmt.Fprintf(writer, "hello go, rquest url is %s", req.URL.Path)
 }
