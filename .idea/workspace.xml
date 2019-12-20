@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b6d536-5a22-4245-9e68-0ea3ecb3a0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HelloWorld/HelloWorld.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftp/ftp.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftp/ftp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goroutine/goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goroutine/goroutine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/strconv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/strings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/strings.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +49,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xmlToMbtiles" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
@@ -78,20 +75,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build ftp.go">
+  <component name="RunManager" selected="Go Build.go build strconv.go">
     <configuration name="go build HelloWorld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/HelloWorld/HelloWorld.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testGo" />
-      <working_directory value="$PROJECT_DIR$/main" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main/test.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -103,44 +92,44 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goroutine" />
+    <configuration name="go build strconv.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="strings" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/goroutine/goroutine.go" />
+      <filePath value="$PROJECT_DIR$/strings/strconv.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="map" />
+    <configuration name="go build strings1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="strings" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/map/map.go" />
+      <filePath value="$PROJECT_DIR$/strings/strings1.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build web.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="web" />
+    <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="strings" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/web/web.go" />
+      <filePath value="$PROJECT_DIR$/strings/strings.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build web.go (1)" />
-      <item itemvalue="Go Build.go build map.go" />
-      <item itemvalue="Go Build.go build goroutine.go" />
       <item itemvalue="Go Build.go build HelloWorld.go" />
       <item itemvalue="Go Build.go build ftp.go" />
+      <item itemvalue="Go Build.go build strings.go" />
+      <item itemvalue="Go Build.go build strings1.go" />
+      <item itemvalue="Go Build.go build strconv.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build strconv.go" />
+        <item itemvalue="Go Build.go build strings.go" />
+        <item itemvalue="Go Build.go build strings1.go" />
         <item itemvalue="Go Build.go build ftp.go" />
         <item itemvalue="Go Build.go build HelloWorld.go" />
-        <item itemvalue="Go Build.go build goroutine.go" />
-        <item itemvalue="Go Build.go build map.go" />
-        <item itemvalue="Go Build.go build web.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +145,8 @@
       <updated>1576462467002</updated>
       <workItem from="1576462470376" duration="13375000" />
       <workItem from="1576563282425" duration="6088000" />
-      <workItem from="1576633069832" duration="3851000" />
+      <workItem from="1576633069832" duration="5693000" />
+      <workItem from="1576716247629" duration="10502000" />
     </task>
     <task id="LOCAL-00001" summary="git启用web服务返回数据和返回页面">
       <created>1576491424027</created>
@@ -172,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576575276920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="随着个人博客的学习文章添加，给出一些案例，并加以学习">
+      <created>1576647890397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576647890397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +192,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="git启用web服务返回数据和返回页面" />
     <MESSAGE value="初识Go中的Map 类型，并在LeetCode使用Go做了一个简单的题，加深认识Map以及方法等操作。" />
-    <option name="LAST_COMMIT_MESSAGE" value="初识Go中的Map 类型，并在LeetCode使用Go做了一个简单的题，加深认识Map以及方法等操作。" />
+    <MESSAGE value="随着个人博客的学习文章添加，给出一些案例，并加以学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="随着个人博客的学习文章添加，给出一些案例，并加以学习" />
   </component>
 </project>
