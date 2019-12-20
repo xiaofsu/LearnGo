@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b6d536-5a22-4245-9e68-0ea3ecb3a0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/strings/strconv.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/strings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/strings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/pointer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/pointer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time/time.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -75,20 +76,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build strconv.go">
-    <configuration name="go build HelloWorld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld" />
+  <component name="RunManager" selected="Go Build.go build web.go">
+    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="pointer" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/HelloWorld/HelloWorld.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build ftp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="ftp" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ftp/ftp.go" />
+      <filePath value="$PROJECT_DIR$/pointer/pointer.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -100,14 +93,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build strings1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="strings" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/strings/strings1.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="strings" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,20 +101,36 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build time.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="time" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/time/time.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/web/web.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build HelloWorld.go" />
-      <item itemvalue="Go Build.go build ftp.go" />
       <item itemvalue="Go Build.go build strings.go" />
-      <item itemvalue="Go Build.go build strings1.go" />
       <item itemvalue="Go Build.go build strconv.go" />
+      <item itemvalue="Go Build.go build time.go" />
+      <item itemvalue="Go Build.go build pointer.go" />
+      <item itemvalue="Go Build.go build web.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build web.go" />
+        <item itemvalue="Go Build.go build pointer.go" />
+        <item itemvalue="Go Build.go build time.go" />
         <item itemvalue="Go Build.go build strconv.go" />
         <item itemvalue="Go Build.go build strings.go" />
-        <item itemvalue="Go Build.go build strings1.go" />
-        <item itemvalue="Go Build.go build ftp.go" />
-        <item itemvalue="Go Build.go build HelloWorld.go" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +148,8 @@
       <workItem from="1576563282425" duration="6088000" />
       <workItem from="1576633069832" duration="5693000" />
       <workItem from="1576716247629" duration="10502000" />
+      <workItem from="1576802452216" duration="666000" />
+      <workItem from="1576807122319" duration="8722000" />
     </task>
     <task id="LOCAL-00001" summary="git启用web服务返回数据和返回页面">
       <created>1576491424027</created>
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576647890397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="学习strings的一些基本使用及string类型转换为其他类型如何进行转换。">
+      <created>1576802518707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576802518707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +203,7 @@
     <MESSAGE value="git启用web服务返回数据和返回页面" />
     <MESSAGE value="初识Go中的Map 类型，并在LeetCode使用Go做了一个简单的题，加深认识Map以及方法等操作。" />
     <MESSAGE value="随着个人博客的学习文章添加，给出一些案例，并加以学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="随着个人博客的学习文章添加，给出一些案例，并加以学习" />
+    <MESSAGE value="学习strings的一些基本使用及string类型转换为其他类型如何进行转换。" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习strings的一些基本使用及string类型转换为其他类型如何进行转换。" />
   </component>
 </project>
