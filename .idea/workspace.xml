@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b6d536-5a22-4245-9e68-0ea3ecb3a0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pointer/pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/pointer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time/time.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/for.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/ifelse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/switch.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -76,7 +76,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build web.go">
+  <component name="RunManager" selected="Go Build.go build for.go">
+    <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="structure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/structure/for.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ifelse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="structure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/structure/ifelse.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="pointer" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,27 +101,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build strconv.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="strings" />
+    <configuration name="go build switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="structure" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/strings/strconv.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="strings" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/strings/strings.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build time.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="time" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/time/time.go" />
+      <filePath value="$PROJECT_DIR$/structure/switch.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -118,19 +118,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build strings.go" />
-      <item itemvalue="Go Build.go build strconv.go" />
-      <item itemvalue="Go Build.go build time.go" />
       <item itemvalue="Go Build.go build pointer.go" />
       <item itemvalue="Go Build.go build web.go" />
+      <item itemvalue="Go Build.go build ifelse.go" />
+      <item itemvalue="Go Build.go build switch.go" />
+      <item itemvalue="Go Build.go build for.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build for.go" />
+        <item itemvalue="Go Build.go build switch.go" />
+        <item itemvalue="Go Build.go build ifelse.go" />
         <item itemvalue="Go Build.go build web.go" />
         <item itemvalue="Go Build.go build pointer.go" />
-        <item itemvalue="Go Build.go build time.go" />
-        <item itemvalue="Go Build.go build strconv.go" />
-        <item itemvalue="Go Build.go build strings.go" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +150,7 @@
       <workItem from="1576716247629" duration="10502000" />
       <workItem from="1576802452216" duration="666000" />
       <workItem from="1576807122319" duration="8722000" />
+      <workItem from="1576910606260" duration="4420000" />
     </task>
     <task id="LOCAL-00001" summary="git启用web服务返回数据和返回页面">
       <created>1576491424027</created>
