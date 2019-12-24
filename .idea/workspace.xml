@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b6d536-5a22-4245-9e68-0ea3ecb3a0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structure/for.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/ifelse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/structure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/label/label.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/label/label.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/pattern.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/pattern.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/ftp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ftp/ftp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/ftp.go" beforeDir="false" afterPath="$PROJECT_DIR$/ftp/ftp.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +52,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xmlToMbtiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
@@ -76,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build for.go">
+  <component name="RunManager" selected="Go Build.go build ftp.go">
     <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="structure" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,19 +87,27 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ifelse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="structure" />
+    <configuration name="go build ftp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testGo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/structure/ifelse.go" />
+      <filePath value="$PROJECT_DIR$/ftp/ftp.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="pointer" />
+    <configuration name="go build label.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="label" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pointer/pointer.go" />
+      <filePath value="$PROJECT_DIR$/label/label.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pattern.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pattern/pattern.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -109,28 +119,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="web" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/web/web.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Build.go build pointer.go" />
-      <item itemvalue="Go Build.go build web.go" />
-      <item itemvalue="Go Build.go build ifelse.go" />
       <item itemvalue="Go Build.go build switch.go" />
       <item itemvalue="Go Build.go build for.go" />
+      <item itemvalue="Go Build.go build ftp.go" />
+      <item itemvalue="Go Build.go build pattern.go" />
+      <item itemvalue="Go Build.go build label.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ftp.go" />
+        <item itemvalue="Go Build.go build label.go" />
+        <item itemvalue="Go Build.go build pattern.go" />
         <item itemvalue="Go Build.go build for.go" />
         <item itemvalue="Go Build.go build switch.go" />
-        <item itemvalue="Go Build.go build ifelse.go" />
-        <item itemvalue="Go Build.go build web.go" />
-        <item itemvalue="Go Build.go build pointer.go" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +153,9 @@
       <workItem from="1576802452216" duration="666000" />
       <workItem from="1576807122319" duration="8722000" />
       <workItem from="1576910606260" duration="4420000" />
+      <workItem from="1577060897627" duration="1214000" />
+      <workItem from="1577082940315" duration="2775000" />
+      <workItem from="1577147851284" duration="7374000" />
     </task>
     <task id="LOCAL-00001" summary="git启用web服务返回数据和返回页面">
       <created>1576491424027</created>
