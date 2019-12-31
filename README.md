@@ -1,5 +1,5 @@
 # LearnGo
-Go语言
+Go语言，同步更新地址：[文档](https://www.xiaofsu.com/)
 
 学习地址：https://github.com/unknwon/the-way-to-go_ZH_CN
 
