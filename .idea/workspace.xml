@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b6d536-5a22-4245-9e68-0ea3ecb3a0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/label/label.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/label/label.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/pattern.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function11.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function12.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function9.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftp/ftp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ftp/ftp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftp/ftp.go" beforeDir="false" afterPath="$PROJECT_DIR$/ftp/ftp.go" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +46,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -54,7 +65,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -66,75 +77,67 @@
       <recent name="C:\Users\xiaof\IdeaProjects\go\testGo\main" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Build.go build ftp.go">
-    <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="structure" />
+  <component name="RunManager" selected="Go Build.go build function12.go">
+    <configuration name="go build function10.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="function" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/structure/for.go" />
+      <filePath value="$PROJECT_DIR$/function/function10.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ftp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testGo" />
+    <configuration name="go build function11.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="function" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ftp/ftp.go" />
+      <filePath value="$PROJECT_DIR$/function/function11.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build label.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="label" />
+    <configuration name="go build function12.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="function" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/label/label.go" />
+      <filePath value="$PROJECT_DIR$/function/function12.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pattern.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="pattern" />
+    <configuration name="go build function9.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="function" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pattern/pattern.go" />
+      <filePath value="$PROJECT_DIR$/function/function9.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="structure" />
+    <configuration name="go build testFunction7.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="function" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/structure/switch.go" />
+      <filePath value="$PROJECT_DIR$/function/testFunction7.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Go Build.go build switch.go" />
-      <item itemvalue="Go Build.go build for.go" />
-      <item itemvalue="Go Build.go build ftp.go" />
-      <item itemvalue="Go Build.go build pattern.go" />
-      <item itemvalue="Go Build.go build label.go" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build ftp.go" />
-        <item itemvalue="Go Build.go build label.go" />
-        <item itemvalue="Go Build.go build pattern.go" />
-        <item itemvalue="Go Build.go build for.go" />
-        <item itemvalue="Go Build.go build switch.go" />
+        <item itemvalue="Go Build.go build function12.go" />
+        <item itemvalue="Go Build.go build function11.go" />
+        <item itemvalue="Go Build.go build function10.go" />
+        <item itemvalue="Go Build.go build function9.go" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -156,6 +159,17 @@
       <workItem from="1577060897627" duration="1214000" />
       <workItem from="1577082940315" duration="2775000" />
       <workItem from="1577147851284" duration="7374000" />
+      <workItem from="1577235068917" duration="5292000" />
+      <workItem from="1577321821648" duration="6536000" />
+      <workItem from="1577407840878" duration="4137000" />
+      <workItem from="1577511101478" duration="88000" />
+      <workItem from="1577690756331" duration="766000" />
+      <workItem from="1577691981464" duration="828000" />
+      <workItem from="1577693023568" duration="137000" />
+      <workItem from="1577693180830" duration="13000" />
+      <workItem from="1577693217116" duration="317000" />
+      <workItem from="1577693561668" duration="4393000" />
+      <workItem from="1577752679719" duration="5227000" />
     </task>
     <task id="LOCAL-00001" summary="git启用web服务返回数据和返回页面">
       <created>1576491424027</created>
@@ -191,6 +205,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.go" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -211,5 +228,75 @@
     <MESSAGE value="随着个人博客的学习文章添加，给出一些案例，并加以学习" />
     <MESSAGE value="学习strings的一些基本使用及string类型转换为其他类型如何进行转换。" />
     <option name="LAST_COMMIT_MESSAGE" value="学习strings的一些基本使用及string类型转换为其他类型如何进行转换。" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Custom_Plugin_Repositories" timestamp="1577693310085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Custom_Plugin_Repositories/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577693310085" />
+    <state x="552" y="178" key="#HTTP_Proxy" timestamp="1577693477971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#HTTP_Proxy/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577693477971" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1577693532124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577693532124" />
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1577771966248">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577771966248" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1577771966248">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577771966248" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1577771966248">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577771966248" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1577771966248">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577771966248" />
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1577700076410">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577700076410" />
+    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1577700076409">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577700076409" />
+    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1577700076409">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577700076409" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1577700076409">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577700076409" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1577693534999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577693534999" />
+    <state x="2615" y="250" key="run.anything.popup" timestamp="1577694943909">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2615" y="250" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577694943909" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/function/function10.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://E:/Go/src/runtime/traceback.go</url>
+          <line>784</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
